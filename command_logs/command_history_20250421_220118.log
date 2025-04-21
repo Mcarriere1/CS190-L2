@@ -1,0 +1,68 @@
+[2025-04-21 22:01:18] [/workspaces/CS190-L2] source .devcontainer/shell.sh
+[2025-04-21 22:33:41] [/workspaces/CS190-L2] mkdir -p project/{archives,documents,pictures,programs}
+[2025-04-21 22:34:19] [/workspaces/CS190-L2] mkdir -p project/documents/frontend
+[2025-04-21 22:34:43] [/workspaces/CS190-L2] mkdir -p project/documents/backend
+[2025-04-21 22:35:49] [/workspaces/CS190-L2] mkdir -p project/pictures/{jan,feb,march}
+[2025-04-21 22:36:46] [/workspaces/CS190-L2] mkdir -p project/programs/{tools,fun}
+[2025-04-21 22:37:26] [/workspaces/CS190-L2] touch/project/documents/frontend/design.txt
+[2025-04-21 22:37:36] [/workspaces/CS190-L2] touch/project/documents/frontend/issues.txt
+[2025-04-21 22:38:29] [/workspaces/CS190-L2] touch project/documents/frontend/design.txt
+[2025-04-21 22:38:37] [/workspaces/CS190-L2] touch project/documents/frontend/issues.txt
+[2025-04-21 22:38:54] [/workspaces/CS190-L2] touch project/documents/backend/api.txt
+[2025-04-21 22:39:05] [/workspaces/CS190-L2] touch project/documents/backend/issues.txt
+[2025-04-21 22:39:34] [/workspaces/CS190-L2] touch project/pictures/jan/locations.txt
+[2025-04-21 22:39:44] [/workspaces/CS190-L2] touch project/pictures/feb/locations.txt
+[2025-04-21 22:39:52] [/workspaces/CS190-L2] touch project/pictures/march/locations.txt
+[2025-04-21 22:40:49] [/workspaces/CS190-L2] tree
+[2025-04-21 22:42:02] [/workspaces/CS190-L2] mv picture1.jpg project/pictures/jan/
+[2025-04-21 22:42:25] [/workspaces/CS190-L2] mv picture2.jpg project/pictures/feb/
+[2025-04-21 22:42:43] [/workspaces/CS190-L2] mv picture3.jpg project/pictures/march/
+[2025-04-21 22:43:59] [/workspaces/CS190-L2] ln -s ../../compile.sh project/programs/tools/compile.sh
+[2025-04-21 22:44:10] [/workspaces/CS190-L2] ln ../../moosay.sh project/programs/fun/moosay.sh
+[2025-04-21 22:44:11] [/workspaces/CS190-L2] ln ../../moosay.sh project/programs/fun/moosay.sh
+[2025-04-21 22:44:17] [/workspaces/CS190-L2] ln ../../moosay.sh project/programs/fun/moosay.sh
+[2025-04-21 22:44:56] [/workspaces/CS190-L2] ln ../../moosay.sh project/programs/fun/moosay.sh
+[2025-04-21 22:46:41] [/workspaces/CS190-L2] man find
+[2025-04-21 22:47:49] [/workspaces/CS190-L2] find -name moosay.sh
+[2025-04-21 22:48:14] [/workspaces/CS190-L2] ln ./moosay.sh project/programs/fun/moosay.sh
+[2025-04-21 22:49:34] [/workspaces/CS190-L2] mv moosay.sh project/programs/
+[2025-04-21 22:49:53] [/workspaces/CS190-L2] mv compile.sh project/programs/
+[2025-04-21 22:52:06] [/workspaces/CS190-L2] cd project/programs/tools/ ./compile.sh
+[2025-04-21 22:52:12] [/workspaces/CS190-L2] cd project/programs/tools/./compile.sh
+[2025-04-21 22:52:57] [/workspaces/CS190-L2/project/programs] cd project/programs/
+[2025-04-21 22:53:05] [/workspaces/CS190-L2/project/programs] ./moosay.sh 
+[2025-04-21 22:53:27] [/workspaces/CS190-L2/project/programs] ./compile.sh 
+[2025-04-21 22:56:10] [/workspaces/CS190-L2/project/programs] tree
+[2025-04-21 22:56:24] [/workspaces/CS190-L2/project/programs] cd ./
+[2025-04-21 22:56:28] [/] cd /
+[2025-04-21 22:57:07] [/] tree
+[2025-04-21 22:57:41] [/workspaces/CS190-L2/project] cd workspaces/CS190-L2/project/
+[2025-04-21 22:57:43] [/workspaces/CS190-L2/project] tree
+[2025-04-21 22:59:43] [/workspaces/CS190-L2/project] tar czf archives/documents.tar.gz documents
+[2025-04-21 23:00:18] [/workspaces/CS190-L2/project] tar czf archives/pictures.tar.gz pictures
+[2025-04-21 23:00:44] [/workspaces/CS190-L2/project] tar czf archives/programs.tar.gz programs
+[2025-04-21 23:01:10] [/workspaces/CS190-L2/project] ls -l archives/
+[2025-04-21 23:01:59] [/workspaces/CS190-L2/project] mktemp -d -p project tmp.XXXXXX
+[2025-04-21 23:03:42] [/workspaces/CS190-L2/project] mktemp -d -p project tmp.1
+[2025-04-21 23:03:50] [/workspaces/CS190-L2/project] mktemp -d -p project tmp.111111
+[2025-04-21 23:03:58] [/workspaces/CS190-L2/project] mktemp -d -p project tmp.1111111111
+[2025-04-21 23:04:32] [/workspaces/CS190-L2/project] mktemp -d -p project tmp.1XXX
+[2025-04-21 23:04:42] [/workspaces/CS190-L2/project] mktemp -d -p project tmp.1XXX
+[2025-04-21 23:04:42] [/workspaces/CS190-L2/project] mktemp -d -p project tmp.1XXX
+[2025-04-21 23:05:44] [/workspaces/CS190-L2] cd ..
+[2025-04-21 23:06:12] [/workspaces/CS190-L2] mktemp -d -p tmp.XXXXXX
+[2025-04-21 23:06:38] [/workspaces/CS190-L2/project] cd project/
+[2025-04-21 23:06:55] [/workspaces/CS190-L2/project] mktemp -d tmp.xxxxxx
+[2025-04-21 23:07:01] [/workspaces/CS190-L2/project] mktemp -d tmp.xxxxxx
+[2025-04-21 23:07:02] [/workspaces/CS190-L2/project] mktemp -d tmp.xxxxxx
+[2025-04-21 23:07:02] [/workspaces/CS190-L2/project] mktemp -d tmp.xxxxxx
+[2025-04-21 23:07:28] [/workspaces/CS190-L2/project] mktemp -d tmp.XXXXXX
+[2025-04-21 23:07:33] [/workspaces/CS190-L2/project] mktemp -d tmp.XXXXXX
+[2025-04-21 23:07:35] [/workspaces/CS190-L2/project] mktemp -d tmp.XXXXXX
+[2025-04-21 23:09:25] [/workspaces/CS190-L2/project] mktemp tmp.*/tempfile.XXXXXX
+[2025-04-21 23:10:38] [/workspaces/CS190-L2/project] man mktemp
+[2025-04-21 23:11:41] [/workspaces/CS190-L2/project] ls -d tmp.*
+[2025-04-21 23:11:59] [/workspaces/CS190-L2/project] mktemp tmp.ABC123/tempfile.XXXXXX
+[2025-04-21 23:12:19] [/workspaces/CS190-L2/project] mktemp tmp.HeOL7Q/tempfile.XXXXXX
+[2025-04-21 23:12:50] [/workspaces/CS190-L2/project] rmdir tmp.*
+[2025-04-21 23:13:09] [/workspaces/CS190-L2/project] rm -r tmp.*
